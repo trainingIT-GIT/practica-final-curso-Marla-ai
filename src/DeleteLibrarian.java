@@ -45,7 +45,7 @@ public class DeleteLibrarian extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblEnterId = new JLabel("Enter Id:");
+		JLabel lblEnterLibrarianId = new JLabel("Enter Id:");
 		
 		textField = new JTextField();
 		textField.setColumns(10);
@@ -82,7 +82,7 @@ public class DeleteLibrarian extends JFrame {
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addGap(39)
-					.addComponent(lblEnterId)
+					.addComponent(lblEnterLibrarianId)
 					.addGap(57)
 					.addComponent(textField, GroupLayout.PREFERRED_SIZE, 178, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap(107, Short.MAX_VALUE))
@@ -101,7 +101,7 @@ public class DeleteLibrarian extends JFrame {
 					.addGap(19)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
 						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-						.addComponent(lblEnterId))
+						.addComponent(lblEnterLibrarianId))
 					.addGap(33)
 					.addComponent(btnDelete, GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE)
 					.addGap(43)
