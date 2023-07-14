@@ -45,7 +45,9 @@ public class DeleteLibrarian extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
+
 		JLabel lblEnterLibrarianId = new JLabel("Enter librarian Id:");
+
 		
 		textField = new JTextField();
 		textField.setColumns(10);
@@ -67,7 +69,7 @@ public class DeleteLibrarian extends JFrame {
 				}
 			}
 		});
-		btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		
 		JButton btnNewButton = new JButton("Back");
 		btnNewButton.addActionListener(new ActionListener() {
